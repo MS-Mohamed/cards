@@ -1,0 +1,133 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards .card-1{
+    width: 250px;
+    padding: 30px 10px 10px 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.cards .card-1 h3{
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cards .card-1 p{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.cards .card-1 button{
+    margin-bottom: 75px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: hsl(31, 77%, 52%);
+    border: 2px solid black;
+}
+
+.cards .card-1 button:hover{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.cards .card-2{
+    width: 250px;
+    padding: 30px 10px 10px 50px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.cards .card-2 h3{
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cards .card-2 p{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.cards .card-2 button{
+    margin-bottom: 75px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%);
+    border: 2px solid black;
+}
+
+.cards .card-2 button:hover{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.cards .card-3{
+    width: 250px;
+    padding: 30px 10px 10px 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.cards .card-3 h3{
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cards .card-3 p{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.cards .card-3 button{
+    margin-bottom: 75px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: hsl(179, 100%, 13%);
+    border: 2px solid black;
+}
+
+.cards .card-3 button:hover{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
